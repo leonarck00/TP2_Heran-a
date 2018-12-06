@@ -10,8 +10,8 @@ public:
     Conta() : numConta(0), agencia(0), senha(""), saldo(0) {}
     void abrirConta()const{bool contaAberta = true;}
     void fecharConta()const{bool contaAberta = false;}
-    void depositar(float valor)const{saldo+=valor;}
-    void sacar(float valor)const{saldo-=valor;}
+    void depositar(float valor){saldo+=valor;}
+    void sacar(float valor){saldo-=valor;}
 
     int getNumConta() const{return numConta;}
     void setNumConta(int value){numConta = value;}

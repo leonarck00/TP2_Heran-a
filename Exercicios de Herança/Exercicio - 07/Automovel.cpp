@@ -1,6 +1,6 @@
 #include "Automovel.h"
 
-Automovel::Automovel()
-{
+//Automovel::Automovel()
+//{
 
-}
+//}

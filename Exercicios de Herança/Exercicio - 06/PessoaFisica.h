@@ -7,7 +7,7 @@ namespace dnn {
 class PessoaFisica : public Pessoa
 {
 public:
-    PessoaFisica() : Pessoa(), cpf(0), sexo('') {}
+    PessoaFisica() : Pessoa(), cpf(0), sexo() {}
 
     double getCpf() const{return cpf;}
     void setCpf(double value){cpf = value;}

@@ -13,7 +13,7 @@ protected:
     char sexo;
 
 public:
-    Funcionario(): nome(""), idade(0), cargaHoraria(0), sexo('') {}
+    Funcionario(): nome(""), idade(0), cargaHoraria(0), sexo() {}
     std::string getNome() const{return nome;}
     void setNome(const std::string &value){nome = value;}
     int getIdade() const{return idade;}
